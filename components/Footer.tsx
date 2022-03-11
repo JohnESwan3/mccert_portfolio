@@ -15,12 +15,12 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="/projects">
                     <a className="footer-secondary">Portfolio</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="/about">
                     <a className="footer-secondary">About</a>
                   </Link>
                 </li>

@@ -23,10 +23,10 @@ export default function Navbar() {
                   <Link href="/">
                     <a className="full-nav-item">Home</a>
                   </Link>
-                  <Link href="/">
+                  <Link href="/projects">
                     <a className="full-nav-item">Portfolio</a>
                   </Link>
-                  <Link href="/">
+                  <Link href="/about">
                     <a className="full-nav-item">About</a>
                   </Link>
                 </div>
@@ -98,10 +98,10 @@ export default function Navbar() {
                 <Link href="/">
                   <a className="mobile-nav-item">Home</a>
                 </Link>
-                <Link href="/">
+                <Link href="/projects">
                   <a className="mobile-nav-item">Portfolio</a>
                 </Link>
-                <Link href="/">
+                <Link href="/about">
                   <a className="mobile-nav-item">About</a>
                 </Link>
               </div>

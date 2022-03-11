@@ -17,3 +17,13 @@
     @apply font-semibold text-slate-500 transition-all hover:text-cyan-500;
   }
 }
+
+/* Hide Scrollbar */
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #333;
+}
