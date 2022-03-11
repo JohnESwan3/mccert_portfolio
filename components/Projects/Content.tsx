@@ -2,11 +2,11 @@ export default function Content() {
   return (
     <div className="mx-auto px-4 py-16 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-20">
       {/* Fill with Sanity */}
-      <div className="grid gap-8 sm:mx-auto sm:max-w-sm lg:max-w-full lg:grid-cols-3">
-        <div className="overflow-hidden rounded bg-white shadow-sm transition-shadow duration-300">
+      <div className="grid gap-8 sm:mx-auto sm:max-w-sm lg:max-w-full lg:grid-cols-3 ">
+        <div className="overflow-hidden rounded bg-white shadow-sm transition-shadow duration-300 ">
           <img
             src="https://images.unsplash.com/photo-1646935239823-85952f60d307?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-            className="h-64 w-full object-cover"
+            className="h-64 w-full object-cover "
             alt=""
           />
           <div className="border border-t-0 p-5">
