@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Hero from '../components/Home/Hero'
-import Content1 from '../components/Home/Content1'
+import Content from '../components/Home/Content'
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
-        <Content1 />
+        <Content />
       </main>
     </div>
   )
