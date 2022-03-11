@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Transition } from '@headlessui/react'
 import Link from 'next/link'
 
-function Nav() {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -112,5 +112,3 @@ function Nav() {
     </div>
   )
 }
-
-export default Nav

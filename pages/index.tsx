@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Hero from '../components/Home/Hero'
+import Content1 from '../components/Home/Content1'
 
 export default function Home() {
   return (
@@ -11,7 +13,10 @@ export default function Home() {
           content="John Swan's Fullsail University Media Communications Certificate Portfolio"
         />
       </Head>
-      <main></main>
+      <main>
+        <Hero />
+        <Content1 />
+      </main>
     </div>
   )
 }
