@@ -1,3 +1,4 @@
+import Link from 'next/link'
 export default function Hero() {
   return (
     <div className="relative mx-auto px-4 pt-16 sm:max-w-xl md:max-w-full md:px-8 lg:py-32 xl:px-20">
@@ -5,30 +6,31 @@ export default function Hero() {
         <div className="mb-16 lg:mb-0 lg:max-w-lg">
           <div className="mb-6 max-w-xl">
             <h1 className="mb-1 max-w-lg font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              I am <span className="text-cyan-500">John Swan</span>
+              I am{' '}
+              <span className="tracking-wide text-cyan-500">John Swan</span>
             </h1>
             <h2 className="text-base text-gray-700 md:text-lg">
               Web Developer <span className="text-cyan-600">|</span> Hobby Game
               Developer <span className="text-cyan-600">|</span> Guitarist
             </h2>
-            <h3 className="tracking-thight text-2xl font-bold tracking-wide">
-              From Idaho
-            </h3>
           </div>
           <div className="flex items-center">
-            <a
-              href="/"
-              className="focus:shadow-outline mr-6 inline-flex h-12 items-center justify-center rounded bg-cyan-600 px-6 font-medium tracking-wide text-white shadow-md transition duration-200 hover:bg-cyan-500 focus:outline-none"
-            >
-              My Projects
-            </a>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold text-cyan-500 transition-colors duration-200 hover:text-cyan-700"
-            >
-              More about me
-            </a>
+            <Link href="/projects">
+              <a
+                aria-label="See my projects"
+                className="focus:shadow-outline mr-6 inline-flex h-12 items-center justify-center rounded bg-cyan-600 px-6 font-medium tracking-wide text-white shadow-md transition duration-200 hover:bg-cyan-500 focus:outline-none"
+              >
+                My Projects
+              </a>
+            </Link>
+            <Link href="/about">
+              <a
+                aria-label="More about me"
+                className="inline-flex items-center font-semibold text-cyan-500 transition-colors duration-200 hover:text-cyan-700"
+              >
+                More about me
+              </a>
+            </Link>
           </div>
         </div>
       </div>

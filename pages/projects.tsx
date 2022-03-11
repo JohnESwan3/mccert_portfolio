@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import Hero from '../components/Home/Hero'
-import Content from '../components/Home/Content'
-import Bottom from '../components/Home/Bottom'
+import Hero from '../components/Projects/Hero'
+import Content from '../components/Projects/Content'
 
-export default function Home() {
+export default function Projects() {
   return (
     <div>
       <Head>
@@ -17,7 +16,6 @@ export default function Home() {
       <main>
         <Hero />
         <Content />
-        <Bottom />
       </main>
     </div>
   )
