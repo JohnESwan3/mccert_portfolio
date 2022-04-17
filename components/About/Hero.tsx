@@ -22,7 +22,7 @@ export default function Hero() {
               <a
                 href="https://www.johneswan3.com"
                 aria-label="Go to John E Swan 3 dot com"
-                className="inline-flex items-center font-semibold tracking-wider text-cyan-400 transition-colors duration-200 hover:text-cyan-700"
+                className="inline-flex items-center font-semibold tracking-wider text-cyan-400 transition-colors duration-200 hover:text-cyan-500"
               >
                 My Developer Portfolio
                 <svg

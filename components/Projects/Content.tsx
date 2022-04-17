@@ -1,3 +1,4 @@
+import Link from 'next/link'
 export default function Content() {
   return (
     <div className="mx-auto px-4 py-16 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-20">
@@ -13,14 +14,11 @@ export default function Content() {
             <p className="mb-3 text-xs font-semibold uppercase tracking-wide">
               28 Dec 2022
             </p>
-            <a
-              href="/"
-              aria-label="Category"
-              title="Visit the East"
-              className="hover:text-deep-purple-accent-700 mb-3 inline-block text-2xl font-bold leading-5 transition-colors duration-200"
-            >
-              Project
-            </a>
+            <Link href="/" aria-label="Category">
+              <a className="hover:text-deep-purple-accent-700 mb-3 inline-block text-2xl font-bold leading-5 transition-colors duration-200">
+                Project
+              </a>
+            </Link>
             <p className="mb-2 text-gray-700">
               Sed ut perspiciatis unde omnis iste natus error sit sed quia
               consequuntur magni voluptatem doloremque.
