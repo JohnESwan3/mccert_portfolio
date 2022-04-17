@@ -19,32 +19,33 @@ export default function Projects({ posts }: Props) {
           content="John Swan's Fullsail University Media Communications Certificate Portfolio"
         />
       </Head>
-      <main>
-        <Hero />
-        <div className="mx-auto px-4 py-16 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-20">
-          {posts.map((post) => (
-            <Link key={post._id} href={`/projects/${post.slug.current}`}>
-              <div className="grid gap-8 sm:mx-auto sm:max-w-sm lg:max-w-full lg:grid-cols-3 ">
-                <div className="overflow-hidden rounded bg-white shadow-sm transition-shadow duration-300 ">
-                  <div className="group cursor-pointer overflow-hidden rounded-lg border">
-                    <img
-                      src={urlFor(post.mainImage).url()!}
-                      className="h-64 w-full object-cover transition-transform duration-200 ease-in-out group-hover:scale-105"
-                      alt=""
-                    />
-                    <div className="border border-t-0 p-5">
-                      <h1 className="mb-3 inline-block text-2xl font-bold leading-5 transition-colors duration-200">
-                        {post.title}
-                      </h1>
-                      <p className="mb-2 text-gray-700">{post.description}</p>
-                    </div>
-                  </div>
+      <Hero />
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-3 p-2 sm:grid-cols-2 md:gap-6 md:p-6 lg:grid-cols-3">
+        {posts.map((post) => (
+          <Link key={post._id} href={`/projects/${post.slug.current}`}>
+            <div className="group cursor-pointer overflow-hidden rounded-lg border">
+              <img
+                className="h-60 w-full object-cover transition-transform duration-200 ease-in-out group-hover:scale-105"
+                src={urlFor(post.mainImage).url()!}
+                alt=""
+              />
+              <div className="flex justify-between bg-white p-5">
+                <div>
+                  <p className="text-lg font-bold">{post.title}</p>
+                  <p className="text-xs">
+                    {post.description} by: {post.author.name}
+                  </p>
                 </div>
+                <img
+                  className="h-12 w-12 rounded-full"
+                  src={urlFor(post.author.image).url()!}
+                  alt=""
+                />
               </div>
-            </Link>
-          ))}
-        </div>
-      </main>
+            </div>
+          </Link>
+        ))}
+      </div>
     </div>
   )
 }

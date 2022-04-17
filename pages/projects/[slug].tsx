@@ -42,7 +42,10 @@ function Post({ post }: Props) {
                 <h1 className="my-5 text-2xl font-bold" {...props} />
               ),
               h2: (props: any) => (
-                <h1 className="my-5 text-xl font-bold" {...props} />
+                <h2 className="my-5 text-xl font-bold" {...props} />
+              ),
+              normal: (props: any) => (
+                <p className="my-5 text-lg font-normal" {...props} />
               ),
               li: ({ children }: any) => (
                 <li className="ml-4 list-disc">{children}</li>

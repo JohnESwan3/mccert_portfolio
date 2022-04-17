@@ -6,7 +6,7 @@ import Feature from '../components/About/Feature'
 
 export default function Projects() {
   return (
-    <div>
+    <div className="mx-auto max-w-7xl">
       <Head>
         <title>Home | John Swan</title>
         <link rel="icon" href="/favicon.ico" />

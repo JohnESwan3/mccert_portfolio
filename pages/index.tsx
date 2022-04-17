@@ -5,7 +5,7 @@ import Bottom from '../components/Home/Bottom'
 
 export default function Home() {
   return (
-    <div>
+    <div className="mx-auto max-w-7xl">
       <Head>
         <title>Home | John Swan</title>
         <link rel="icon" href="/favicon.ico" />
