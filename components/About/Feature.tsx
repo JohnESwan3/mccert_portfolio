@@ -26,9 +26,11 @@ export default function Feature() {
             My Portfolio
           </h2>
           <p className="mb-5 pr-5 text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae. explicabo.
+            If you would like to learn more about my web-development work,
+            please check out my developer portfolio! <br />
+            Come back sometime to see more projects that I add to my media
+            communications portfolio as I create projects that relate to this
+            topic.
           </p>
         </div>
       </div>
