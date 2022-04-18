@@ -17,7 +17,7 @@ export default function Home() {
       <main>
         <Hero />
         <Content />
-        <Bottom />
+        {/* <Bottom /> */}
       </main>
     </div>
   )

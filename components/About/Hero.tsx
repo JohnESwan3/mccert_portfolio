@@ -6,18 +6,20 @@ export default function Hero() {
         className="absolute inset-0 h-full w-full object-cover"
         alt=""
       />
-      <div className="relative bg-gray-900 bg-opacity-75 filter backdrop-blur-md">
+      <div className="relative bg-gray-900 bg-opacity-75 filter backdrop-blur-lg">
         <div className="mx-auto px-4 py-16 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-20">
           <div className="flex flex-col items-center justify-between xl:flex-row">
             <div className="mb-12 w-full max-w-xl xl:mb-0 xl:w-7/12 xl:pr-16">
               <h2 className="mb-6 max-w-lg font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-                The quick, brown fox <br className="hidden md:block" />
-                jumps over a <span className="text-cyan-400">lazy dog</span>
+                About Me
               </h2>
-              <p className="mb-4 max-w-xl text-base text-gray-400 md:text-lg">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudan, totam rem aperiam, eaque ipsa
-                quae.
+              <p className="mb-4 max-w-xl text-base text-gray-300 md:text-lg">
+                I am a self-taught front-end web developer specializing in React
+                and Next.js, and dabbling in back-end development.
+              </p>
+              <p className="mb-4 max-w-xl text-base text-gray-300 md:text-lg">
+                I am also a hobbiest game developer, guitarist, and delving into
+                YouTube with DaVinci Resolve and OBS.
               </p>
               <a
                 href="https://www.johneswan3.com"

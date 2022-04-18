@@ -9,11 +9,12 @@ export default function Content() {
           <div className="absolute bottom-0 right-0 h-full w-1 origin-top scale-y-0 transform bg-cyan-500 duration-300 group-hover:scale-y-100" />
           <div className="relative rounded-sm bg-white p-5">
             <div className="mb-2 flex flex-col lg:flex-row lg:items-center">
-              <h6 className="font-semibold leading-5">The quick, brown fox</h6>
+              <h6 className="font-semibold leading-5">Next.js</h6>
             </div>
             <p className="mb-2 text-sm text-gray-900">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam.
+              A JavaScript Framework built ontop of React that allows for
+              features like Server-Side-Rendering and Incremental Static
+              Regeneration
             </p>
           </div>
         </div>
@@ -24,11 +25,11 @@ export default function Content() {
           <div className="absolute bottom-0 right-0 h-full w-1 origin-top scale-y-0 transform bg-cyan-500 duration-300 group-hover:scale-y-100" />
           <div className="relative rounded-sm bg-white p-5">
             <div className="mb-2 flex flex-col lg:flex-row lg:items-center">
-              <h6 className="font-semibold leading-5">The quick, brown fox</h6>
+              <h6 className="font-semibold leading-5">Tailwind CSS</h6>
             </div>
             <p className="mb-2 text-sm text-gray-900">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam.
+              A utility-first CSS framework to quickly build user interfaces. It
+              is written in-line with HTML or JSX/TSX and is easily customizable
             </p>
           </div>
         </div>
@@ -39,11 +40,12 @@ export default function Content() {
           <div className="absolute bottom-0 right-0 h-full w-1 origin-top scale-y-0 transform bg-cyan-500 duration-300 group-hover:scale-y-100" />
           <div className="relative rounded-sm bg-white p-5">
             <div className="mb-2 flex flex-col lg:flex-row lg:items-center">
-              <h6 className="font-semibold leading-5">The quick, brown fox</h6>
+              <h6 className="font-semibold leading-5">Sanity.io</h6>
             </div>
             <p className="mb-2 text-sm text-gray-900">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam.
+              A powerful Content Management System that is completely
+              customizable and treats data like code. The CMS can also be
+              deployed and used on phones.
             </p>
           </div>
         </div>
@@ -54,11 +56,12 @@ export default function Content() {
           <div className="absolute bottom-0 right-0 h-full w-1 origin-top scale-y-0 transform bg-cyan-500 duration-300 group-hover:scale-y-100" />
           <div className="relative rounded-sm bg-white p-5">
             <div className="mb-2 flex flex-col lg:flex-row lg:items-center">
-              <h6 className="font-semibold leading-5">The quick, brown fox</h6>
+              <h6 className="font-semibold leading-5">DaVinci Resolve</h6>
             </div>
             <p className="mb-2 text-sm text-gray-900">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam.
+              A professional-level video editor that I learned to use for many
+              projects in my courses. The editing tools are powerful but simple
+              enough for me
             </p>
           </div>
         </div>
@@ -69,11 +72,12 @@ export default function Content() {
           <div className="absolute bottom-0 right-0 h-full w-1 origin-top scale-y-0 transform bg-cyan-500 duration-300 group-hover:scale-y-100" />
           <div className="relative rounded-sm bg-white p-5">
             <div className="mb-2 flex flex-col lg:flex-row lg:items-center">
-              <h6 className="font-semibold leading-5">The quick, brown fox</h6>
+              <h6 className="font-semibold leading-5">OBS</h6>
             </div>
             <p className="mb-2 text-sm text-gray-900">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam.
+              Open Broadcast Software is used to record or stream whatever is on
+              the screen. I used this to record all of my video and audio for
+              many assignments.
             </p>
           </div>
         </div>
@@ -84,11 +88,12 @@ export default function Content() {
           <div className="absolute bottom-0 right-0 h-full w-1 origin-top scale-y-0 transform bg-cyan-500 duration-300 group-hover:scale-y-100" />
           <div className="relative rounded-sm bg-white p-5">
             <div className="mb-2 flex flex-col lg:flex-row lg:items-center">
-              <h6 className="font-semibold leading-5">The quick, brown fox</h6>
+              <h6 className="font-semibold leading-5">Figma / Canva</h6>
             </div>
             <p className="mb-2 text-sm text-gray-900">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam.
+              Two design tools that I used extensively throughout my classes.
+              Figma is great for Website Mockups and Canva is great for
+              mood-boards and thumbnails
             </p>
           </div>
         </div>

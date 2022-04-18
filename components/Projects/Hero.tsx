@@ -5,7 +5,7 @@ export default function Hero() {
         <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
           <div className="mb-16 flex flex-col sm:mb-0 sm:text-center">
             <a href="/" className="mb-6 sm:mx-auto">
-              <div className=" flex h-auto w-96 items-center justify-center rounded-full">
+              <div className=" flex h-auto w-48 items-center justify-center rounded-full md:w-80 lg:w-96">
                 <img
                   src="https://hello.fullsail.edu/lp/shared/app/common/images/logo.svg"
                   alt="Full Sail University Logo"

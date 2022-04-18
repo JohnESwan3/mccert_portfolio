@@ -18,7 +18,7 @@ export default function Projects() {
       <main>
         <Hero />
         <Content />
-        <Timeline />
+        {/* <Timeline /> */}
         <Feature />
       </main>
     </div>
